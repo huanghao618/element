@@ -30,9 +30,6 @@
         <el-menu-item-group>
           <router-link to="/fuwenben" tag="p">添加文本</router-link>
         </el-menu-item-group>
-        <el-menu-item-group>
-          <router-link to="/cart" tag="p">添加商品</router-link>
-        </el-menu-item-group>
       </el-submenu>
     </el-menu>
      

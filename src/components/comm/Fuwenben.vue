@@ -62,7 +62,5 @@ export default {
 </script>
 
 <style lang='scss' >
-.ql-container{
-  height: 400px;
-}
+
 </style>

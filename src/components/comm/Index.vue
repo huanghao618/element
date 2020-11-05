@@ -40,14 +40,14 @@ export default {
 <style lang='scss' scoped>
 
 .index {
-  height: 100%;
+  // height: 100%;
   .el-container {
-    height: 100%;
-    background: #ccc;
+    // height: 100%;
+    // background: #ccc;
     .el-aside {
       background: rgb(48, 65, 86);
       color: white;
-      height: 100%;
+      // height: 100%;
     }
   }
   .el-header {

@@ -8,8 +8,7 @@
       <el-input v-model="price" placeholder="请输入商品价格"></el-input>
       <el-input v-model="cate" placeholder="请输入商品类型"></el-input>
        <el-input v-model="hot" placeholder="是否热销"></el-input>
-      <button @click="add">添加</button>
-       <el-button>默认按钮</el-button>
+       <el-button  @click="add">添加</el-button>
   </div>
 </template>
 
