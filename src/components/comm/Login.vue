@@ -1,7 +1,7 @@
 <template>
 <div class="login">
   <div class="box">
-    <div class="title">欢迎登录系统啊</div>
+    <div class="title">欢迎登录系统11啊</div>
 
     <div>
       <el-input v-model="username" placeholder="用户名"></el-input>
