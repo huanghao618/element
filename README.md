@@ -1,1 +1,3 @@
 # element
+
+npm start
