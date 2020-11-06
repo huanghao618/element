@@ -1,23 +1,13 @@
 <!--  -->
 <template>
   <div class="index">
-    <el-container>
-
-      <!-- 左边 -->
-      <el-aside width="200px">
-        <Aside ></Aside>
-      </el-aside>
-      <!-- 头部 -->
-      <el-container>
-        <el-header>
-          <Header></Header>
-        </el-header>
-        <!-- 内容 -->
-        <el-main>
-          <Main></Main>
-        </el-main>
-      </el-container>
-    </el-container>
+ <el-container>
+  <el-aside width="200px"><Aside></Aside></el-aside>
+  <el-container>
+    <el-header><Header></Header></el-header>
+    <el-main><Main></Main></el-main>
+  </el-container>
+</el-container>
    
   </div>
 </template>
@@ -38,26 +28,36 @@ export default {
 </script>
 
 <style lang='scss' scoped>
+.index{
+ height: 100%;
+  background: #545C64;
+  .el-container{
 
-.index {
-  // height: 100%;
-  .el-container {
-    // height: 100%;
-    // background: #ccc;
-    .el-aside {
-      background: rgb(48, 65, 86);
-      color: white;
-      // height: 100%;
-    }
-  }
-  .el-header {
-    background: white;
-    border-bottom: 1px solid #ccc;
-  }
-  .el-main {
-    background: rgb(238, 240, 243);
-    box-sizing: border-box;
-    padding: 15px;
-  }
+ 
+  .el-aside{
 }
+.el-header{
+   height: 40px;
+   line-height: 40px;
+   background: #51B7EC;
+}
+.el-main{
+ height: 850px;
+ background: #ccc;
+ .data-v-54d3a52e {
+   height: 850px;
+   .el-table{
+     height: 100%;
+     .el-table__empty-block{
+        height: 680px;
+     }
+   }
+ }
+}
+}
+}
+
+
+
+
 </style>

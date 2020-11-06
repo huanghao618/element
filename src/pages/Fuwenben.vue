@@ -1,6 +1,6 @@
 <template>
-  <div>
-<h1>hahaahahhah</h1>
+  <div class="fuwenben">
+<h1>hello world</h1>
 <div>
   <el-input v-model="title"></el-input>
 </div>
@@ -62,5 +62,10 @@ export default {
 </script>
 
 <style lang='scss' >
-
+.fuwenben{
+  height: 100%;
+  .quill-editor{
+    height: 80%;
+  }
+}
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="app">
      <Home></Home>
-     <!-- <router-view></router-view> -->
+    
   </div>
 </template>
 
@@ -20,7 +20,8 @@ export default {
 
 <style lang='scss' scoped>
 .app{
-  width: 100%;
+    margin: 0;
+  padding: 0;
   height: 100%;
 }
 </style>
