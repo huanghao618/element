@@ -25,7 +25,7 @@
           <span>商品管理</span>
         </template>
         <el-menu-item-group>
-          <router-link to="/cart" tag="p">添加商品</router-link>
+          <router-link to="/add" tag="p">添加商品</router-link>
         </el-menu-item-group>
       </el-submenu>
     </el-menu>

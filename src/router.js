@@ -9,14 +9,14 @@ const Register=()=>import("@/pages/Regitser.vue")
 const Login =()=>import("@/pages/Login.vue")
 // 添加商品
 const Good =()=>import("@/pages/Good.vue")
-const Cart =()=>import("@/pages/Cart.vue")
+const Add =()=>import("@/pages/Add.vue")
 
 const router =new VueRouter({
 routes:[
   {path:"/register",component:Register},
   {path:"/login/",component:Login},
   {path:"/good",component:Good},
-  {path:"/cart",component:Cart},
+  {path:"/add",component:Add},
 ]
 
 })

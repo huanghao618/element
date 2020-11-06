@@ -19,7 +19,7 @@ export default {
       img:"",//图片
       name:"",//商品名称
       desc:"",//商品简介
-      price:100,//商品价格
+      price:"",//商品价格
       cate:"",//商品类型
       hot:"",//是否热销
 
