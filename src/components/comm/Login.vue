@@ -44,7 +44,7 @@ export default {
 
 <style lang='scss' scoped>
 .login {
-  background: rgb(45, 58, 75);
+  background: rgb(42, 58, 75);
   height: 100%;
   width: 100%;
   color: rgb(238, 238, 238);
