@@ -26,14 +26,14 @@
           </el-row>
 
           <!-- 表格 -->
-          <el-table :data="tableData" border style="width: 100%">
+          <el-table :data="tableData"  style="width: 100%" >
             <el-table-column fixed prop="name" label="商品名称" width="150"></el-table-column>
             <el-table-column prop="name" label="商品图片" width="120">
               <template slot-scope="scope">
                 <img class="img" :src="scope.row.img" alt />
               </template>
             </el-table-column>
-            <el-table-column prop="desc" label="商品详情" width="400"></el-table-column>
+            <el-table-column prop="desc" label="商品详情" width="300"></el-table-column>
             <el-table-column prop="price" label="商品价格" width="100"></el-table-column>
             <el-table-column prop="create_time" label="上架时间" width="200"></el-table-column>
             <el-table-column fixed="right" label="操作" width="100">
@@ -134,12 +134,12 @@ export default {
   .grid-content {
     line-height: 40px;
   }
-  .el-main {
-    border: 1px solid #ccc;
-  }
   .three {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  .el-table{
+    height: 700px;
   }
   .el-table__row {
     height: 20px;

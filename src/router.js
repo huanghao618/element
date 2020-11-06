@@ -10,8 +10,6 @@ const Login =()=>import("@/pages/Login.vue")
 // 添加商品
 const Good =()=>import("@/pages/Good.vue")
 const Cart =()=>import("@/pages/Cart.vue")
-// 富文本框
-const Funwenben=()=>import("@/pages/Fuwenben.vue")
 
 const router =new VueRouter({
 routes:[
@@ -19,7 +17,6 @@ routes:[
   {path:"/login/",component:Login},
   {path:"/good",component:Good},
   {path:"/cart",component:Cart},
-  {path:"/fuwenben",component:Funwenben},
 ]
 
 })

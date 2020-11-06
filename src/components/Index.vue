@@ -32,26 +32,26 @@ export default {
  height: 100%;
   background: #545C64;
   .el-container{
-
  
   .el-aside{
+    background:#2A3A4B;
+    color: #fff;
 }
 .el-header{
-   height: 40px;
-   line-height: 40px;
-   background: #51B7EC;
+   background: #1F553A;
 }
 .el-main{
  height: 850px;
  background: #ccc;
+ .el-table__body-wrapper{
+   overflow-x: none;
+ }
  .data-v-54d3a52e {
    height: 850px;
    .el-table{
      height: 100%;
-     .el-table__empty-block{
-        height: 680px;
-     }
    }
+    
  }
 }
 }

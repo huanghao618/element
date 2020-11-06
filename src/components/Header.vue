@@ -4,8 +4,12 @@
       <el-header>
            
            <div>
-           <router-link to="/login" tag="span">登陆</router-link>
+              <el-button type="primary">
+                 <router-link to="/login" tag="span">登陆</router-link>
+              </el-button>
+            <el-button type="primary">
             <router-link to="/register" tag="span">注册</router-link>
+               </el-button>
            </div>
     </el-header>
   </div>
@@ -27,6 +31,7 @@ export default {
   .el-header{
     display: flex;
     justify-content: space-between;
+    height: 40px;
     line-height: 40px;
     .el-button{
       font-size: 16px;
