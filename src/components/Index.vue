@@ -4,8 +4,8 @@
     <el-container>
 
       <!-- 左边 -->
-      <el-aside width="200px" height="100%">
-        <Aside style="height:100%;"></Aside>
+      <el-aside width="200px">
+        <Aside ></Aside>
       </el-aside>
       <!-- 头部 -->
       <el-container>
@@ -26,9 +26,9 @@
 // import Aside from "@/components/comm/Aside.vue"
 export default {
   components: {
-    Aside: () => import("@/components/comm/Aside.vue"),
-    Main: () => import("@/components/comm/Main.vue"),
-    Header: () => import("@/components/comm/Header.vue"),
+    Aside: () => import("@/components/Aside.vue"),
+    Main: () => import("@/components/Main.vue"),
+    Header: () => import("@/components/Header.vue"),
     
   },
   data() {

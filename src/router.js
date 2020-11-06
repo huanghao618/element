@@ -3,12 +3,15 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 // 注册路由 固定写法
 Vue.use(VueRouter)
-
-const Register=()=>import("@/components/comm/Regitser.vue")
-const Login =()=>import("@/components/comm/Login.vue")
+//注册
+const Register=()=>import("@/pages/Regitser.vue")
+// 登录
+const Login =()=>import("@/pages/Login.vue")
+// 添加商品
 const Good =()=>import("@/pages/Good.vue")
 const Cart =()=>import("@/pages/Cart.vue")
-const Funwenben=()=>import("@/components/comm/Fuwenben.vue")
+// 富文本框
+const Funwenben=()=>import("@/pages/Fuwenben.vue")
 
 const router =new VueRouter({
 routes:[
