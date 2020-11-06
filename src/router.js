@@ -13,6 +13,7 @@ const Add =()=>import("@/pages/Add.vue")
 
 const router =new VueRouter({
 routes:[
+  {path:"/", redirect:"/index",component:Good},
   {path:"/register",component:Register},
   {path:"/login/",component:Login},
   {path:"/good",component:Good},
