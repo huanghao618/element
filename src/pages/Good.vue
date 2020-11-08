@@ -9,7 +9,7 @@
           <!--  -->
           <el-row>
             <el-col :span="3">
-              <div class="grid-content bg-purple-dark">品类筛选：</div>
+              <p class="grid-content bg-purple-dark">品类筛选啊：</p>
             </el-col>
             <el-col :span="12">
               <div class="grid-content bg-purple-dark">
