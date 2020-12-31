@@ -16,6 +16,6 @@ module.exports = {
   rules: {
     'no-var': 2,
     semi: 2,
-    'no-alert': 2, //禁用
+    'no-alert': 2, //禁用alert
   },
-};
+}
